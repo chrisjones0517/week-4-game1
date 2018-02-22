@@ -1,0 +1,132 @@
+.container {
+    background-image: url('../images/stonehaven.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Barlow Condensed', sans-serif;
+    height: 100%;
+    padding: 2rem;
+}
+
+.control {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+p {
+   padding: 1rem;
+}
+
+.directions {
+    width: 100%;
+    background-image: url('../images/light-veneer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 1rem;
+    
+}
+
+.statusBox {
+    background-image: url('../images/light-veneer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5rem;
+    width: 100%;
+    margin: auto;
+}
+
+.targetNum {
+    float: left;
+    height: 5rem;
+    width: 25%;
+    text-align: center;
+}
+
+.targetNum span {
+    line-height: 5rem;
+    font-size: 2rem;
+    background-color: #00ffcc;
+    padding: 0.75rem 1rem; 
+}
+
+.winLoss {
+    float: left;
+    height: 5rem;
+    width: 25%;
+}
+
+button {
+    height: 2rem;
+    width: 20%;
+    margin-top: 1.4rem;
+    margin-left: 2.5%;
+}
+
+.gemRow {
+    margin-top: 1rem;
+    height: 15vw;
+    text-align: justify; 
+}
+
+.gem1 {
+    max-height: 125px;
+    max-width: 125px;
+    height: 15vw;
+    width: 15vw;
+}
+
+.gem2 {
+    max-height: 125px;
+    max-width: 125px;
+    height: 15vw;
+    width: 15vw;
+}
+
+.gem3 {
+    max-height: 125px;
+    max-width: 125px;
+    height: 15vw;
+    width: 15vw;
+}
+
+.gem4 {
+    max-height: 125px;
+    max-width: 125px;
+    height: 15vw;
+    width: 15vw;
+}
+
+.gemRow:after {
+    content: '';
+    width: 100%; 
+    display: inline-block;
+}
+
+.score {
+    float: left;
+    height: 5rem;
+    width: 25%;
+}
+
+.scoreLabel {
+    padding: 0.25rem 0;
+}
+
+.scoreVal {
+    font-size: 2rem;
+    padding-top: 0.25rem;
+}
+
+.winLoss p {
+    padding: 0.75rem 0 0.5rem 1rem;
+}
+
+
+
+  
